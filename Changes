@@ -1,5 +1,7 @@
 Revision history for Perl module Template::Plugin::EnvHash
 
+1.01 - Fixed empty README file
+
 1.00 - First release to CPAN.  Has all the features  i intended when i
        started writing it. Only changes i can think of are bug fixes 
        (although hopefully nobody will find any bug fixes), a move from

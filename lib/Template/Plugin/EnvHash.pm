@@ -4,8 +4,8 @@ Template::Plugin::EnvHash - Environment Variable Hash for TT2
 
 =head1 SYNOPSIS
 
-[% USE env = EnvHash %]
-[% env.SOME_ENV_VAR %]
+ [% USE env = EnvHash %]
+ [% env.SOME_ENV_VAR %]
 
 
 =head1 DESCRIPTION
@@ -62,7 +62,7 @@ use warnings;
 # Standard Perl Library and CPAN modules
 use English;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 
 sub new {
