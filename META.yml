@@ -1,16 +1,15 @@
 --- #YAML:1.0
 name: Template-Plugin-EnvHash
-version: 1.01
+version: 1.03
+author:
+  - Sagar R. Shah
+abstract: Environment Variable Hash for TT2
 license: perl
-distribution_type: module
 requires:
   Template: 0
   Test::More: 0
-recommends: {}
-build_requires: {}
-conflicts: {}
 provides:
   Template::Plugin::EnvHash:
     file: lib/Template/Plugin/EnvHash.pm
-    version: 1.01
-generated_by: Module::Build version 0.20
+    version: 1.03
+generated_by: Module::Build version 0.25

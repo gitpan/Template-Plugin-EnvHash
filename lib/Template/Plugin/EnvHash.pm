@@ -62,7 +62,7 @@ use warnings;
 # Standard Perl Library and CPAN modules
 use English;
 
-our $VERSION = '1.01';
+our $VERSION = '1.03';
 
 
 sub new {
@@ -96,10 +96,18 @@ If you do not have Module::Build type:
 
 to fetch it. Or use CPAN or CPANPLUS and fetch it "manually".
 
+=head1 KNOWN ISSUES
+
+The curernt implementation simply blesses %ENV. This causes a problem for the
+environment variable $VERSION as this gets overwritten by the module's own
+$VERSION. I will change the implementation at some point, but do feel free to
+email me and hurry me along if this is stopping you from being able to use this
+module
+
 =head1 BUGS
 
-None known at time  of writing.  To report a  bug or request an enhancement  use
-CPAN's excellent Request Tracker:
+To report a  bug or request an enhancement  use CPAN's excellent Request
+Tracker:
 
 L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Template-Plugin-EnvHash>
 

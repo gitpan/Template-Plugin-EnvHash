@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.35.
+signed via the Module::Signature module, version 0.38.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,23 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1b9ac18e159c2d652f80f0c67fe26ff5a8bfe516 Build.PL
-SHA1 942982e9444cc923e5e3db37382cd7e711551bba Changes
+SHA1 c6ac5cf448f99cd4fc6bf5105dc7ddfb9f32574b Build.PL
+SHA1 b2faf4ff9efc7dc7237a117e963388d1fb441501 Changes
 SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
-SHA1 031b6cb54cf1308142eb76a6e57a004fc46a1c9f MANIFEST
-SHA1 305670d80dd8e364a28322a469211fe9cd3d8731 META.yml
-SHA1 e86245b6a930636e230cc7607c02cdabe7d1e2fc Makefile.PL
-SHA1 8030ff8c0fdbce401d22e4cf7279e6df9ab85fbe README
-SHA1 209c403a9b4a934c2400d95167bb82148c96ec2f lib/Template/Plugin/EnvHash.pm
-SHA1 0aecb17b96b36610d08c9054a93aa24400a19438 t/001_signature.t
-SHA1 518fe4be2e81cbb5444a4917b572b1231e6eb575 t/002_pod.t
-SHA1 2a1e7fd25feabb006d6aee6841a02ab8fb24c85f t/003_load.t
-SHA1 abda016ecc7b9cfb6c6d484f7e328fa76d348f65 t/004_env.t
+SHA1 66ad602db1c9192ccd96eb2e4a65398aec9bcb7e MANIFEST
+SHA1 970875f993d9332066d8544b9e02ebed2543f226 META.yml
+SHA1 98b29166293891887aba21453627efbe62830402 README
+SHA1 d15306413764eba58fcefebdcb8bc3a12f48803f lib/Template/Plugin/EnvHash.pm
+SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
+SHA1 ff562b072a620c490fa380b12cb17c9075915848 t/02_isa.t
+SHA1 abda016ecc7b9cfb6c6d484f7e328fa76d348f65 t/03_env.t
 SHA1 fa12bad800c86920d9768ac418fb2b0af7a94b52 t/test.tt2
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.1 (GNU/Linux)
+Version: GnuPG v1.2.4 (GNU/Linux)
 
-iD8DBQE/ZEiEbD1fM9M5ytIRAoiZAKCDL95s8c3Y6TQepgUK64GkrWNclQCfcp3V
-bmML8qTURsBwpxu8BD51Chc=
-=MD+p
+iD8DBQFBjN84bD1fM9M5ytIRAnGVAKCG+ux7mZ95b3HTw3GOtdnBpeoFBACcDCSL
+s6LoL9BWtLnlALq2uJDoDek=
+=y/m1
 -----END PGP SIGNATURE-----

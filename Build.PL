@@ -8,5 +8,7 @@ Module::Build->new(
 				   'Test::More' => 0,
 				   'Template'   => 0,
 				  },
+		   create_readme => 1,
 		   sign        => 1,
+		   create_makefile_pl => 'passthrough',
 		  )->create_build_script;

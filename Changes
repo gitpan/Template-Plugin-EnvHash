@@ -1,5 +1,10 @@
 Revision history for Perl module Template::Plugin::EnvHash
 
+1.03 - Added KNOWN ISSUES section to docs
+
+1.02 - Added Test::Distribution tests, removed the 'manual' signature and pod tests,
+       renumbered tests. 003_load.t becomes 02_isa.t as use test is no longer required.
+
 1.01 - Fixed empty README file
 
 1.00 - First release to CPAN.  Has all the features  i intended when i

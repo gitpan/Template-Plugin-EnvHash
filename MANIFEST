@@ -1,13 +1,13 @@
 Build.PL
 Changes
+lib/Template/Plugin/EnvHash.pm
 LICENSE
 MANIFEST			This list of files
 META.yml
-Makefile.PL
 README
-lib/Template/Plugin/EnvHash.pm
-t/001_signature.t
-t/002_pod.t
-t/003_load.t
-t/004_env.t
+t/01_distribution.t
+t/02_isa.t
+t/03_env.t
 t/test.tt2
+
+SIGNATURE    Added here by Module::Build
