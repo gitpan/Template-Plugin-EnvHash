@@ -1,0 +1,36 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.28.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 1b9ac18e159c2d652f80f0c67fe26ff5a8bfe516 Build.PL
+SHA1 3b0d965a922bfcf92da49b8ec7cd89ecffda9021 Changes
+SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
+SHA1 031b6cb54cf1308142eb76a6e57a004fc46a1c9f MANIFEST
+SHA1 2e9611ae7c0208d22a6e035da1e48b997fa6a755 META.yml
+SHA1 e86245b6a930636e230cc7607c02cdabe7d1e2fc Makefile.PL
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 README
+SHA1 3aab0fa4d653fd46c4bf1c7ee752489099bb7768 lib/Template/Plugin/EnvHash.pm
+SHA1 0aecb17b96b36610d08c9054a93aa24400a19438 t/001_signature.t
+SHA1 518fe4be2e81cbb5444a4917b572b1231e6eb575 t/002_pod.t
+SHA1 2a1e7fd25feabb006d6aee6841a02ab8fb24c85f t/003_load.t
+SHA1 abda016ecc7b9cfb6c6d484f7e328fa76d348f65 t/004_env.t
+SHA1 fa12bad800c86920d9768ac418fb2b0af7a94b52 t/test.tt2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.1 (GNU/Linux)
+
+iD8DBQE/W4QObD1fM9M5ytIRArKZAJwPGEM95mBV/PLspZ2nOssmAP2QAwCeN8+C
+BHhBkQ61DmGzGx4wF618B/U=
+=u8YY
+-----END PGP SIGNATURE-----
