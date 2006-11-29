@@ -8,6 +8,6 @@ BEGIN {
 		plan skip_all => 'Test::Distribution not installed';
 	}
 	else {
-		import Test::Distribution;
+		import Test::Distribution not => qw(podcover);
 	}
 }

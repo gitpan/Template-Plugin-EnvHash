@@ -60,9 +60,8 @@ use strict;
 use warnings;
 
 # Standard Perl Library and CPAN modules
-use English;
 
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 
 sub new {

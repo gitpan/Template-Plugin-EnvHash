@@ -11,4 +11,5 @@ Module::Build->new(
 		   create_readme => 1,
 		   sign        => 1,
 		   create_makefile_pl => 'passthrough',
+       add_to_cleanup      => [ 'Template-Plugin-EnvHash-*' ],
 		  )->create_build_script;

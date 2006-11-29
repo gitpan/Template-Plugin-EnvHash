@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.38.
+signed via the Module::Signature module, version 0.53.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,21 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c6ac5cf448f99cd4fc6bf5105dc7ddfb9f32574b Build.PL
-SHA1 b2faf4ff9efc7dc7237a117e963388d1fb441501 Changes
+SHA1 3f18dd9a767eddc3cbb421618bd6f32021996ef1 Build.PL
+SHA1 1a6f5aefe31a747ff95d97ac97ed1a71f8d8aded Changes
 SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
-SHA1 66ad602db1c9192ccd96eb2e4a65398aec9bcb7e MANIFEST
-SHA1 970875f993d9332066d8544b9e02ebed2543f226 META.yml
+SHA1 aafdfc6ed49470fc775528d33ba87d43960c82ea MANIFEST
+SHA1 0641ed217f742ff56ebc11a4a77941a43885fbe1 META.yml
+SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 98b29166293891887aba21453627efbe62830402 README
-SHA1 d15306413764eba58fcefebdcb8bc3a12f48803f lib/Template/Plugin/EnvHash.pm
-SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
+SHA1 1c32ea1dc66668c3cd49c7853b73846eb493e0ea lib/Template/Plugin/EnvHash.pm
+SHA1 e3a027df810cf5273f33352cde6421249b2ba411 t/01_distribution.t
 SHA1 ff562b072a620c490fa380b12cb17c9075915848 t/02_isa.t
 SHA1 abda016ecc7b9cfb6c6d484f7e328fa76d348f65 t/03_env.t
 SHA1 fa12bad800c86920d9768ac418fb2b0af7a94b52 t/test.tt2
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.4 (GNU/Linux)
+Version: GnuPG v1.4.3 (GNU/Linux)
 
-iD8DBQFBjN84bD1fM9M5ytIRAnGVAKCG+ux7mZ95b3HTw3GOtdnBpeoFBACcDCSL
-s6LoL9BWtLnlALq2uJDoDek=
-=y/m1
+iD8DBQFFbQL6bD1fM9M5ytIRAj2LAKCIq2ybhG/enFdlRTYGJsgg99we8QCeO21o
+q8WXd+zNIJsIoi2FV8pXS/Q=
+=7Vy4
 -----END PGP SIGNATURE-----
