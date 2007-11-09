@@ -1,5 +1,7 @@
 Revision history for Perl module Template::Plugin::EnvHash
 
+1.05 - Pod Updates
+
 1.04 - Remove unused use English which would impose a performance hit (at the
        very least on older Perls)
        (thanks to ask for reminding me about this)
