@@ -6,10 +6,9 @@ use Test::More;
 
 use Template::Plugin::EnvHash;
 
-# do not test this environment variable
-delete $ENV{_};
+my @env_vars_to_test = grep { !m/^_/ } keys %ENV;
 
-plan tests => scalar(keys %ENV) * 2 ;
+plan tests => scalar(@env_vars_to_test) * 2 ;
 
 
 my $env_hash = Template::Plugin::EnvHash->new();
@@ -17,7 +16,7 @@ my $tt2 = Template->new({
 			 RELATIVE => 1,
 			}) || die($Template::ERROR . "\n");
 
-foreach my $var_name (keys %ENV) {
+foreach my $var_name (@env_vars_to_test) {
 	my $tt2_output;
 
 	is($ENV{$var_name}, $env_hash->{$var_name});

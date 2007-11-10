@@ -63,11 +63,14 @@ KNOWN ISSUES
     but do feel free to email me and hurry me along if this is stopping you
     from being able to use this module
 
+    Environment Variables with names begining with an underscore are not
+    supported.
+
 BUGS
     To report a bug or request an enhancement use CPAN's excellent Request
     Tracker:
 
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Template-Plugin-EnvHash
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Template-Plugin-EnvHash>
 
 SOURCE AVAILABILITY
     This source is part of a SourceForge project which always has the latest

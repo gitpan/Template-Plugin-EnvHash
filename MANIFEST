@@ -10,4 +10,3 @@ t/01_distribution.t
 t/02_isa.t
 t/03_env.t
 t/test.tt2
-SIGNATURE    Added here by Module::Build

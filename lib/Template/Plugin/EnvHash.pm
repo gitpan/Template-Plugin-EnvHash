@@ -61,7 +61,7 @@ use warnings;
 
 # Standard Perl Library and CPAN modules
 
-our $VERSION = '1.05';
+our $VERSION = '1.06';
 
 
 sub new {
@@ -102,6 +102,8 @@ environment variable $VERSION as this gets overwritten by the module's own
 $VERSION. I will change the implementation at some point, but do feel free to
 email me and hurry me along if this is stopping you from being able to use this
 module
+
+Environment Variables with names begining with an underscore are not supported.
 
 =head1 BUGS
 

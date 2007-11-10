@@ -1,6 +1,6 @@
 ---
 name: Template-Plugin-EnvHash
-version: 1.05
+version: 1.06
 author: []
 abstract: Environment Variable Hash for TT2
 license: perl
@@ -9,10 +9,12 @@ resources:
 requires:
   Template: 0
   Test::More: 0
+build_requires:
+  Test::Distribution: 1.29
 provides:
   Template::Plugin::EnvHash:
     file: lib/Template/Plugin/EnvHash.pm
-    version: 1.05
+    version: 1.06
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

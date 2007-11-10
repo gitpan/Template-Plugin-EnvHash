@@ -1,5 +1,8 @@
 Revision history for Perl module Template::Plugin::EnvHash
 
+1.06 - No longer sign dist
+     - Document that env vars starting with _ are not supported and alter tests to filter out this case
+
 1.05 - Pod Updates
 
 1.04 - Remove unused use English which would impose a performance hit (at the
